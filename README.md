@@ -96,7 +96,6 @@ API の稼働状態を確認するためのヘルスチェック用エンドポ�
 
 ### リクエスト仕様（/predict）
 
-**Header**
 
 **Body（JSON）**
 
@@ -133,16 +132,20 @@ API の稼働状態を確認するためのヘルスチェック用エンドポ�
 
 ### 実行方法（Docker 推奨）
 1. リポジトリをクローン
+```bash
 git clone https://github.com/masgani/feedback-analysis-webapp.git
 cd feedback-analysis-webapp
+```
 
 2. Docker Compose で起動
+```bash
 docker compose up --build
+```
 
-3. アクセス
-
-Web UI（Streamlit）
+3. アクセス Web UI（Streamlit）
+```bash
 http://localhost:8501
+```
 
 ## Web アプリの操作方法
 
