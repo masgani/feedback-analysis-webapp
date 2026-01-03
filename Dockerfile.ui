@@ -1,6 +1,5 @@
 FROM python:3.10-slim
 
-# fonts JP + mecab for fugashi (dan wordcloud JP)
 RUN apt-get update && apt-get install -y --no-install-recommends \
     fonts-noto-cjk \
     mecab \
